@@ -42,6 +42,10 @@ public class File {
     }
 
     public String toString() {
-        return "| " + name + "\t"+"| " + type + " | " + size + " mb\t |";
+        if (name.length() < 10) {
+            return "| " + name + "\t\t\t\t" + "| " + type + " | " + size + " mb\t |";
+        } else {
+            return "| " + name + "\t" + "| " + type + " | " + size + " mb\t |";
+        }
     }
 }

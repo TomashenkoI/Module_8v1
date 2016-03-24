@@ -41,7 +41,7 @@ public class PrintCollection {
         System.out.println();
         System.out.println("Files in the direction");
         System.out.println("_________________________________________");
-        System.out.println("| Name                  |type|   size ↑  |");
+        System.out.println("| Name                  |type |  size ↑  |");
         for (File d : direction) {
             System.out.println("_________________________________________");
             System.out.println(d);
